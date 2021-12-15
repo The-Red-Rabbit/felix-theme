@@ -665,8 +665,17 @@ textarea {
 /* Site
 --------------------------------------------- */
 .site {
-	margin: 2%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 2%;
 	font-family: Ubuntu;
+}
+
+@media only screen and (max-width: 1000px) {
+	.site {
+		margin: 2%;
+		font-family: Ubuntu;
+	}
 }
 
 .site-main {
